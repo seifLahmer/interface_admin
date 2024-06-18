@@ -1,0 +1,65 @@
+
+ /* EmployeForm.css */
+
+
+ .add-shift-container {
+    background-color: #f8f9fa; /* Couleur de fond */
+    border: 1px solid #ced4da; /* Bordure */
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 800px; /* Largeur maximale */
+    text-align: center; /* Centrer horizontalement */
+    margin: 0 auto; /* Centrer verticalement */
+  }
+  
+  .add-shift-container p {
+    font-size: 16px; /* Taille de police */
+    color: #495057; /* Couleur du texte */
+  }
+  
+  .add-shift-container label {
+    display: block; /* Afficher les libellés sur une ligne différente */
+    margin-bottom: 10px; /* Espacement sous chaque libellé */
+    font-size: 16px; /* Taille de police */
+    color: #495057; /* Couleur du texte */
+  }
+  
+  .add-shift-container input {
+    width: calc(100% - 20px); /* Largeur des champs de saisie avec espacement */
+    padding: 10px;
+    font-size: 16px; /* Taille de police */
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff; /* Couleur de fond des champs */
+    color: #495057; /* Couleur du texte */
+    margin-bottom: 20px; /* Espacement en bas */
+  }
+  
+  .add-shift-container button {
+    background-color: #0f3a68; /* Couleur de fond pour le bouton "Ajouter" */
+    color: #fff; /* Couleur du texte pour le bouton "Ajouter" */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; /* Taille de police */
+    cursor: pointer;
+  }
+  
+  .add-shift-container button:hover {
+    background-color: #0f3a68; /* Couleur de fond au survol du bouton "Ajouter" */
+  }
+  
+
+  .add-shift-container .button-container {
+    display: flex; /* Utiliser flexbox pour aligner les boutons */
+    justify-content: space-around; /* Espacement automatique entre les boutons */
+  }
+  
+  .add-shift-container .retour-button {
+    background-color: #d32f2f; /* Rouge industriel */
+    color: #fff; /* Texte blanc pour contraste */ /* Couleur de fond rouge pour le bouton "Retour" */
+  }
+  .add-shift-container .retour-button:hover {
+    background-color: #b71c1c; /* Rouge plus foncé au survol */
+  }
+  
+  

@@ -1,0 +1,102 @@
+/* Header.css */
+.header {
+  background: #282c34; /* Fond gris foncé */
+  color: black; /* Texte bleu clair */
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  border-bottom: 2px solid black; /* Bordure inférieure subtile */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Ajouter du padding à gauche et à droite */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Éloigner légèrement le reste du contenu */
+}
+
+.logo {
+  height: 70px; /* Augmenter la hauteur du logo */
+  margin-right: 20px; /* Espace entre le logo et le titre */
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 0;
+  color: #fff; /* Couleur blanche pour le titre */
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: white; /* Utiliser la même couleur que le texte principal */
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transition pour la couleur et la transformation */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: gray; /* Changer la couleur au survol ou au focus */
+  transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link:active::after {
+  opacity: 1;
+}
+
+.logout-button {
+  background-color: #ff4b5c; /* Couleur de fond pour le bouton de déconnexion */
+  color: #fff; /* Couleur du texte du bouton de déconnexion */
+  padding: 10px 20px; /* Espacement interne du bouton */
+  border-radius: 5px; /* Coins arrondis pour le bouton */
+  text-decoration: none; /* Enlever la décoration de texte */
+  font-size: 18px; /* Taille du texte */
+  margin-left: 20px; /* Espacement à gauche pour séparer du reste */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition pour la couleur et la transformation */
+}
+
+.logout-button:hover,
+.logout-button:focus {
+  background-color: #ff2e3d; /* Couleur de fond au survol ou au focus */
+  transform: scale(1.1); /* Agrandir légèrement au survol */
+}

@@ -1,0 +1,35 @@
+.delete-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #37474F; /* Couleur de fond plus sombre */
+  color: #FFFFFF; /* Couleur du texte en blanc */
+  padding: 20px; /* Augmentez l'espacement intérieur */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Ombre plus prononcée */
+  max-width: 400px; /* Largeur maximale */
+}
+
+.delete-modal h2 {
+  margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+.delete-modal p {
+  margin-bottom: 20px; /* Espacement sous les paragraphes */
+}
+
+.delete-modal button {
+  background-color: #D32F2F; /* Rouge foncé pour le fond du bouton */
+  color: #FFFFFF; /* Couleur du texte en blanc */
+  border: none;
+  padding: 12px 24px; /* Augmentez la taille du bouton */
+  font-size: 16px; /* Augmentez la taille du texte */
+  border-radius: 4px; /* Coins arrondis */
+  cursor: pointer;
+  margin: 5px; /* Espacement entre les boutons */
+}
+
+.delete-modal button:hover {
+  background-color: #C62828; /* Changement de couleur au survol */
+}

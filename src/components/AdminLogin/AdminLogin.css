@@ -1,0 +1,76 @@
+/* Reset some basic styles for the login component */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .login-box {
+    background: #ffffff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Styling the heading */
+  .login-box h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the form */
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling the input fields */
+  .login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .login-box input[type="text"]:focus, .login-box input[type="password"]:focus {
+    border-color: #800000;
+    outline: none;
+  }
+  
+  /* Styling the login button */
+  .login-box button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #800000; /* Dark red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .login-box button:hover {
+    background-color: #660000; /* Darker red color on hover */
+    transform: scale(1.05);
+  }
+  
+  /* Styling the message paragraph */
+  .login-box p {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
